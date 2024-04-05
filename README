@@ -1,0 +1,61 @@
+# Mini9 Project
+Web URL: https://aacxuhhcxkan9asqzsgpxt.streamlit.app/ 
+
+## Author
+Haoyan Li
+
+## My Streamlit App: AI-Powered Text Generator
+
+This Streamlit app features an advanced text generator that creates content in response to user-provided input. It leverages a sophisticated AI model to extend the given text, offering a seamless blend of original and AI-generated content. On the sidebar, an interactive chart presents a visual comparison between the length of the original text and the generated text, adding an intriguing aspect to the user experience. This chart not only serves as a fun addition but also provides insights into the AI's text extension capabilities.
+
+## Project Steps
+
+This section provides detailed steps on how to set up the project, develop the Streamlit app content, and deploy the application.
+
+### Install Necessary Packages
+
+1. **Create a Virtual Environment** (Optional):
+   It's a good practice to create a virtual environment to isolate project dependencies.
+   ```bash
+   python3 -m venv env
+   source env/bin/activate  # For Linux/macOS
+   ```
+
+2. **Install Required Libraries**:
+   Install all the required Python libraries using pip.
+   ```bash
+   pip install -r requirements.txt
+   ```
+   This command installs all the packages listed in `requirements.txt`, including `Streamlit` and any other dependencies.
+
+### Create Streamlit App Content
+
+1. *Developing the App*:
+   - Start by creating a new Python file (e.g., `app.py`) for the Streamlit app.
+   - Use the Streamlit library to create interactive elements.
+   - Integrate the language model using the `transformers` library.
+   - Build the graph using 
+
+2. *App Structure*:
+   - Define the layout and flow of the application.
+   - Implement user input sections, buttons, and display areas for the AI-generated content.
+
+### Deployment
+
+1. **Local Deployment**:
+   - Run the Streamlit app locally for testing:
+     ```bash
+     streamlit run app.py
+     ```
+   - Screenshot of running app locally:
+   ![image](localTest.png)
+
+   - Access the app in a web browser at `http://localhost:8501`.
+
+2. **Remote Deployment**:
+   - Create a `requirement.txt` file to provide neccesaary dependencies to deploy on Streamlit
+   - Deploy on Streamlit website
+   ![image](deploy.png)
+   - Screenshot of running
+   ![image](before.png)
+   ![image](after.png)
